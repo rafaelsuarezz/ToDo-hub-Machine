@@ -1,0 +1,31 @@
+nav {
+    position: relative;
+    width: 100%;
+    height: 60px;
+}
+
+.title-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-left {
+    padding-right: 2px;
+    color: white;
+}
+
+.background-title {
+    display: flex;
+    position: relative;
+    width: 45px;
+    height: 25px;
+    background-color: #FF9B00;
+    border-radius: 3px;
+}
+
+.title-right {
+    display: contents;
+    position: fixed;
+    color: black;
+}

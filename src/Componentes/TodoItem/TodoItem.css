@@ -1,0 +1,31 @@
+.todoitem {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-left: 3px;
+    margin-right: 5px;
+    position: relative;
+    
+}
+
+/* .icon {
+    position: absolute;
+} */
+
+/* svg {
+    width: 25px;
+    height: 25px;
+} */
+
+.todoitem-p--complete {
+    text-decoration: line-through;
+}
+
+.icon-check--active {
+    color: #4caf50;
+}
+
+.icon-delete:hover svg {
+    fill: red;
+}

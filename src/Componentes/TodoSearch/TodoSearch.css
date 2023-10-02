@@ -1,0 +1,29 @@
+/* input {
+    display: flex;
+    margin: 0 auto;
+    width: 220px;
+    height: 23px;
+    border-radius: 3px;
+    border: none;
+} */
+
+input {
+    width: 80%;
+    height: 40px;
+    margin: 0 auto;
+    padding: 0 35px 0 70px;
+    background: #252525;
+    color: #fff;
+    border: 1px solid #ff9000;
+    display: block;
+    box-sizing: border-box;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    font-size: 18px;
+
+}
+
+
+input:disabled {
+    opacity: 25%;
+}
