@@ -1,4 +1,4 @@
-import "../TodoTitle/TodoTitle.css";
+import "./TodoTitle.css";
 
 function TodoTitle() {
     return (

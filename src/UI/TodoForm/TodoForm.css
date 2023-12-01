@@ -1,6 +1,17 @@
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Ajusta la altura del contenedor al 100% de la altura de la ventana del navegador */
+    margin: 0; /* Elimina los márgenes predeterminados */
+    padding: 0; /* Elimina los rellenos predeterminados */
+    box-sizing: border-box; /* Asegura que el ancho y alto especificados sean inclusivos de los rellenos y bordes */
+}
+
 form {
     width: 90%;
     max-width: 300px;
+    margin: 0 auto;
     background-color: #fff;
     padding: 33px 40px;
     display: flex;

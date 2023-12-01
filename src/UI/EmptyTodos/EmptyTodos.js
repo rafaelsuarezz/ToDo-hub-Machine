@@ -4,7 +4,7 @@ import '../EmptyTodos/EmptyTodos.css'
 function EmptyTodos() {
 
     return (
-        <p>Crea una tarea..</p>
+        <p className="textNewTodo">Crea una nueva tarea..!</p>
     )
 }
 

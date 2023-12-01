@@ -2,14 +2,14 @@ import React from 'react';
 import '../CreateTodoButton/CreateTodoButton.css'
 import { HiOutlinePlus } from "react-icons/hi2";
 
-function CreateTodoButton({ setOpenModal }) {
+function CreateTodoButton({ onClick }) {
     return (
       <button 
         className='CreateTodoButton'
-        onClick = {
-          () => { setOpenModal (state => !state)}
-        }
-      > < HiOutlinePlus /> </button>
+        onClick={ onClick }
+      > 
+        < HiOutlinePlus /> 
+      </button>
     )
 }
 
